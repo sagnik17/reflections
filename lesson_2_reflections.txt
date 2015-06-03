@@ -7,3 +7,6 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	We can store the changes in staging area. then do a git diff to find out the changes between the working directory and the staging area so that it will be clear before commiting what permanent changes we want.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When we don't know for sure what we are doing or we don't want to change the master branch we create a branch and start messing up there
