@@ -17,3 +17,6 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	It will figure out which lines to keep in the new commit from the two branches by going to the parent of both the branches.
 	We represent it the way we do because every branch has separate path from the root. so in order to understand a specific commit is rechable from current commit or not it is represented that way
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	When it does automatic merging then there will definitely a whole lot of errors or conflicts because the new branch may be created for testing or for something to know or try some new things. When it does manually then we have control over it when to merge that we know what to do, if a conflict ocuurs then we know pretty much what to do to fix that.
