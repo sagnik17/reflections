@@ -14,3 +14,10 @@ What is the benefit of having a copy of the last known state of the remote store
   when someone else made a change to the copy which is in GitHub then we can
   ensure that by fetching those changes to our remote version that is stored
   locally and then comparing that with our own local copy.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  By exchainging with mails. of course using Git it will be easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  When I wanted to create some new feature and don't want to change the official
+  version then I could create a separate branch and start messing things up.
